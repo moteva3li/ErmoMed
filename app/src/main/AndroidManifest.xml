@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ermomed">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ErmoMed">
+        <activity
+            android:name=".quotes.edit.EditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".media.MediaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sleep.SleepActivity"
+            android:exported="false" />
+        <activity
+            android:name=".quotes.QuotesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

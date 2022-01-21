@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <item-->
+<!--        android:id="@+id/sounds"-->
+<!--        android:icon="@drawable/musical"-->
+<!--        android:title="Sounds" />-->
+
+
+<!--    <item-->
+<!--        android:id="@+id/musics"-->
+<!--        android:icon="@drawable/music"-->
+<!--        android:title="Music" />-->
+</menu>

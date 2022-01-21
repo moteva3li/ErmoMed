@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88E0EF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="665dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/profile" />
+
+    <ImageView
+        android:id="@+id/sectionquotes"
+        android:layout_width="162dp"
+        android:layout_height="177dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/sectionsleep"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/quotespart" />
+
+    <ImageView
+        android:id="@+id/sectionsleep"
+        android:layout_width="320dp"
+        android:layout_height="189dp"
+        android:layout_marginBottom="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/sleeppart" />
+
+    <ImageView
+        android:id="@+id/sectionmedia"
+        android:layout_width="187dp"
+        android:layout_height="236dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/sectionsleep"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toEndOf="@+id/sectionquotes"
+        app:srcCompat="@drawable/listenpart" />
+</androidx.constraintlayout.widget.ConstraintLayout>
